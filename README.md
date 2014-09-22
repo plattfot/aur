@@ -1,0 +1,1 @@
+Package descriptions for AUR for the different projects I create.
