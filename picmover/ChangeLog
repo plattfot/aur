@@ -1,6 +1,10 @@
-2014-07-12 Fredrik Salomonsson <plattfot@gmail.com>
-
+2014-11-23 Fredrik Salomonsson <plattfot@gmail.com>
 	* pkgver-pkgrel :
-	First release
+	Removed hachoir-metadata dependency.
+	Move to python 3.
+	
+2014-07-12 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.1.1-1 :
+	First release.
 	
 
