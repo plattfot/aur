@@ -1,5 +1,9 @@
+2014-11-30 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.2.1-1 :
+	Fixed a bug that got introduce in v0.2.0,
+	Which was that it couldn't import new images/videos.
 2014-11-23 Fredrik Salomonsson <plattfot@gmail.com>
-	* pkgver-pkgrel :
+	* 0.2.0-1 :
 	Removed hachoir-metadata dependency.
 	Move to python 3.
 	
