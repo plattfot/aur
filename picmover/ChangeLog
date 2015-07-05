@@ -1,3 +1,6 @@
+2015-07-05 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.4.2-1 :
+	Fixed bug when importing videos from Nikon D750
 2014-11-30 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.2.1-1 :
 	Fixed a bug that got introduce in v0.2.0,
