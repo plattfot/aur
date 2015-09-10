@@ -30,7 +30,7 @@ md5sums=('SKIP') #generate with 'makepkg -g'
 
 package() {
 	cd "$srcdir/$pkgname-$pkgver"
-	make PREFIX="$pkgdir/usr" install
+	make PREFIX="$pkgdir/usr/bin" install
 }
 
 
