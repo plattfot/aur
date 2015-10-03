@@ -32,6 +32,7 @@ prepare() {
     local rgr_root="${srcdir}/lin64/receiver"
     mkdir -p ${rgr_root}/src
     bsdtar -C ${rgr_root}/src -xf ${rgr_root}/rgreceiver_linux_64-${pkgver}-1.${arch}.rpm
+    chmod 755 -R $rgr_root/src
 }
 
 package() {
@@ -39,8 +40,8 @@ package() {
     cp -r $srcdir/lin64/receiver/src/* $pkgdir/
     chmod 644 -R $pkgdir/*
     chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgreceiver{,.sh}
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgreceiverConfigApp
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgreceiverconfigapp.sh
+    chmod 755 $pkgdir/opt/hpremote/rgreceiver/receiverConfigApp
+    chmod 755 $pkgdir/opt/hpremote/rgreceiver/receiverconfigapp.sh
     chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgsmbiosreader
     # install license
     install -Dm644 $srcdir/lin64/receiver/LICENSE.txt \
