@@ -1,3 +1,7 @@
+2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.4.0-1*:
+	Added support for reading from config file using option -f|--configfile <file>
+	Updated the systemd service unit to use config files instead.
 2015-09-08 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.2.0-1 :
 	Split the script into two parts, baksnapper and baksnapperd.

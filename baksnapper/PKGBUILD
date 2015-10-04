@@ -5,7 +5,7 @@
 
 # Maintainer: Fredrik Salomonsson <plattfot@gmail.com>
 pkgname=baksnapper
-pkgver=0.2.0
+pkgver=0.4.0
 pkgrel=1
 epoch=
 pkgdesc="Backup script for snapper snapshots."
@@ -30,7 +30,7 @@ md5sums=('SKIP') #generate with 'makepkg -g'
 
 package() {
 	cd "$srcdir/$pkgname-$pkgver"
-	make PREFIX="$pkgdir/usr/bin" install
+	make install PREFIX="$pkgdir" BSCONF_ROOT=/etc 
 }
 
 
