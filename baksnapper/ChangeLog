@@ -1,4 +1,7 @@
 2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.4.1-1*:
+	Bug fix, the root check was disabled.
+2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.4.0-1*:
 	Added support for reading from config file using option -f|--configfile <file>
 	Updated the systemd service unit to use config files instead.
