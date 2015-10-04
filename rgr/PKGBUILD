@@ -13,7 +13,7 @@ arch=('x86_64')
 url="http://www8.hp.com/us/en/campaigns/workstations/remote-graphics-software.html"
 license=('custom')
 groups=()
-depends=()
+depends=('libpng12' 'libudev0')
 makedepends=()
 checkdepends=()
 optdepends=()
@@ -38,11 +38,11 @@ prepare() {
 package() {
     # install src
     cp -r $srcdir/lin64/receiver/src/* $pkgdir/
-    chmod 644 -R $pkgdir/*
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgreceiver{,.sh}
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/receiverConfigApp
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/receiverconfigapp.sh
-    chmod 755 $pkgdir/opt/hpremote/rgreceiver/rgsmbiosreader
+    chmod 755 -R $pkgdir/*
+    install -dm755 $pkgdir/usr/bin
+    # install executable in /usr/bin
+    echo -e "#!/bin/bash\n/opt/hpremote/rgreceiver/rgreceiver.sh" > $pkgdir/usr/bin/rgr
+    chmod 755 $pkgdir/usr/bin/rgr
     # install license
     install -Dm644 $srcdir/lin64/receiver/LICENSE.txt \
             $pkgdir/usr/share/licenses/$pkgname/license.txt
