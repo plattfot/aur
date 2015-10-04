@@ -1,4 +1,7 @@
 2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.4.2-1*:
+	Bug fix, when sending only one snapshot and the destination was empty.
+2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.4.1-1*:
 	Bug fix, the root check was disabled.
 2015-10-04 Fredrik Salomonsson <plattfot@gmail.com>
