@@ -1,3 +1,8 @@
+2016-02-07 Fredrik Salomonsson <plattfot@gmail.com>
+	* 1.1.0-1 :
+	Added optional notification.
+	Updated support for Asus Nexus 7 and LG Nexus 5X.
+	The extension mp4 is now recognized as a video format.
 2015-12-06 Fredrik Salomonsson <plattfot@gmail.com>
 	* 1.0.0-1 :
 	Fixed a crash when given bad GPS data.
