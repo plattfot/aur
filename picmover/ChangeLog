@@ -1,3 +1,9 @@
+2016-02-08 Fredrik Salomonsson <plattfot@gmail.com>
+	* 1.2.1-1
+	Fixed a bug when libnotify isn't installed.
+2016-02-08 Fredrik Salomonsson <plattfot@gmail.com>
+	* 1.2.0-1
+	Added flag -p/--pool to specify where it shall look for the source files.
 2016-02-07 Fredrik Salomonsson <plattfot@gmail.com>
 	* 1.1.0-1 :
 	Added optional notification.
