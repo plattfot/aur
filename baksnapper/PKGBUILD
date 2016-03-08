@@ -5,12 +5,12 @@
 
 # Maintainer: Fredrik Salomonsson <plattfot@gmail.com>
 pkgname=baksnapper
-pkgver=0.4.3
+pkgver=0.5.0
 pkgrel=1
 epoch=
 pkgdesc="Backup script for snapper snapshots."
 arch=('any')
-url="https://bitbucket.org/plattfot/picmover"
+url="https://github.com/plattfot/baksnapper"
 license=('GPL3')
 groups=()
 depends=('btrfs-progs' 'snapper')
