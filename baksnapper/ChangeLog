@@ -1,3 +1,6 @@
+2017-06-25 Fredrik Salomonsson <plattfot@gmail.com>
+	* 0.6.0-1 :
+	Changed syntax for remote hosts. <address>:<path>
 2016-03-07 Fredrik Salomonsson <plattfot@gmail.com>
 	* 0.5.0-1 :
 	Added support for libnotify to notify the user when baksnapper is running.
