@@ -10,3 +10,6 @@
 [submodule "iscan-plugin-ds-30"]
 	path = iscan-plugin-ds-30
 	url = git@github.com:plattfot/iscan-plugin-ds-30.git
+[submodule "battery-aur"]
+	path = battery-aur
+	url = git@github.com:plattfot/battery-aur.git
