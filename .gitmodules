@@ -13,3 +13,6 @@
 [submodule "battery-aur"]
 	path = battery-aur
 	url = git@github.com:plattfot/battery-aur.git
+[submodule "xkblayout-state-aur"]
+	path = xkblayout-state-aur
+	url = git@github.com:plattfot/xkblayout-state-aur.git
