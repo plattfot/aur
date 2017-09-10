@@ -1,0 +1,9 @@
+[submodule "baksnapper-aur"]
+	path = baksnapper-aur
+	url = git@github.com:plattfot/baksnapper-aur.git
+[submodule "rgr-aur"]
+	path = rgr-aur
+	url = git@github.com:plattfot/rgr-aur.git
+[submodule "picmover-aur"]
+	path = picmover-aur
+	url = git@github.com:plattfot/picmover-aur.git
