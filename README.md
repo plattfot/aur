@@ -1,1 +1,1 @@
-Package descriptions for AUR for the different projects I create.
+Collection of AUR package description that are not in the main AUR.
