@@ -7,3 +7,6 @@
 [submodule "picmover-aur"]
 	path = picmover-aur
 	url = git@github.com:plattfot/picmover-aur.git
+[submodule "iscan-plugin-ds-30"]
+	path = iscan-plugin-ds-30
+	url = git@github.com:plattfot/iscan-plugin-ds-30.git
